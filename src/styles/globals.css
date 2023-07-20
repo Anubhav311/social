@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
+/* :root {
+--foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -25,7 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+ */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -94,12 +94,12 @@ body {
   }
 }
 
-/* @layer base {
+@layer base {
   * {
-    @apply border-border;
+    @layer border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @layer bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
-} */
+}

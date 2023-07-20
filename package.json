@@ -13,6 +13,7 @@
     "@editorjs/editorjs": "^2.27.2",
     "@editorjs/embed": "^2.5.3",
     "@prisma/client": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -28,6 +29,7 @@
     "react-dom": "18.2.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
+    "tailwindcss-animate": "^1.0.6",
     "typescript": "5.1.6"
   }
 }
