@@ -15,13 +15,10 @@ const UserAuthForm: FC<UserAuthFormProps> = ({ className, ...props }) => {
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
 
   const loginWithGoogle = async () => {
-    console.log("calling hook");
     setIsLoading(true);
     try {
       await signIn("google");
     } catch (error) {
-      console.log("reached here");
-      console.log(error);
       toast({
         title: "Error",
         description: "There was an error logging in with Google",
